@@ -1,1 +1,5 @@
-// app.js for question-01 
+var num1 = 3;
+var num2 = 5;
+var sum = num1 + num2;
+
+document.writeln(`Sum of ${num1} and ${num2} is ${sum}`);
