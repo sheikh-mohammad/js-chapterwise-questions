@@ -8,7 +8,59 @@
 </head>
 
 <body>
-
+    <h1>Census From</h1>
+    <form action="app.js">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+        </div>
+        <br>
+        <div>
+            Gender:
+            <ul>
+                <li>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                </li>
+                <li>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female"> <br>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" cols="30" rows="4"></textarea>
+        <br>
+        <br>
+        <div>
+            <label for="education">
+                Education:
+            </label>
+            <select name="education" id="education">
+                <option value="ssc">SSC</option>
+                <option value="hsc">HSC</option>
+                <option value="bcs">BCS</option>
+                <option value="bs">BS</option>
+                <option value="bcom">BCOM</option>
+                <option value="ms">MS</option>
+                <option value="m-phil">M. Phil.</option>
+                <option value="phd">PhD</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="profession">Profession:</label>
+            <select name="profession">
+                <option value="student">Student</option>
+                <option value="engineer">Engineer</option>
+                <option value="doctor">Doctor</option>
+                <option value="teacher">Teacher</option>
+            </select>
+        </div>
+        <br>
+        <button type="submit" onclick="createPerson()">Submit</button>
+    </form>
 </body>
 <script src="app.js"></script>
 
