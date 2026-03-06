@@ -7,4 +7,12 @@
 // Yellow Ready to move
 // Green  Move now
 
-if 
+var signalColor = prompt("Enter Your Road Traffic Signal Color: ");
+
+if (signalColor == "Red") {
+    console.log("Must Stop");
+} else if (signalColor == "Yellow") {
+    console.log("Ready to move");
+} else if (signalColor == "Green") {
+    console.log("Move now");
+}

@@ -6,8 +6,6 @@ var gender = prompt("Enter Your Gender: ");
 
 if (gender == "male") {
     console.log("Good Morning Sir");
-}
-
-if (gender == "female") {
+} else if (gender == "female") {
     console.log("Good Morning Ma’am");
 }
